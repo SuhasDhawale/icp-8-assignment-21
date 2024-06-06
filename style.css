@@ -6,6 +6,19 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.receipt-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
 .brand-logo{
     width: 100px;
+}
+.brand-name{
+    font-size: 24px;
+}
+.brand-address{
+    text-align: center;
 }
