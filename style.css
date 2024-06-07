@@ -28,3 +28,14 @@ body{
     text-align: center;
     margin-top: -10px;
 }
+.receipt-detail{
+    display: flex;
+    justify-content: space-around;
+}
+.receipt-detail-key{
+    color: gray;
+}
+.receipt-detail-value{
+    font-weight: bold;
+    border-bottom: 1px dashed gray;
+}
