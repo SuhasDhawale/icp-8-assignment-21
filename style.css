@@ -9,7 +9,7 @@ body{
 .container-bill{
      border-bottom: 2px dashed gray;
      padding: 10px;
-     margin: 0 20px;
+     margin: 10px 20px;
 }
 .receipt-header{
     display: flex;
@@ -28,14 +28,23 @@ body{
     text-align: center;
     margin-top: -10px;
 }
-.receipt-detail{
+.tax-invoice{
+    border-bottom: 2px dashed gray;
+    padding: 10px;
+    margin: 10px 20px;
+}
+.receipt-detail-row{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.receipt-detail{
+    margin: 0px 20px;
+    display: flex;
+    padding: 3px 10px;
 }
 .receipt-detail-key{
-    color: gray;
+    padding: 0px 10px;
 }
 .receipt-detail-value{
     font-weight: bold;
-    border-bottom: 1px dashed gray;
 }
