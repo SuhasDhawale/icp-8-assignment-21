@@ -53,4 +53,5 @@ body{
     justify-content: space-between;
     border-bottom: 2px dashed gray;
     margin: 10px 20px;
+    padding: 10px 0px;
 }
