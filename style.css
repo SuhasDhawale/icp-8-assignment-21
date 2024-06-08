@@ -76,3 +76,7 @@ body{
 .receipt-detail-key-value-row-container{
     border-bottom: 2px dashed gray;
 }
+.basic-details{
+    padding: 0px 10px;
+    margin: 10px ;
+}
