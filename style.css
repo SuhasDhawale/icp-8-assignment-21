@@ -95,9 +95,22 @@ body{
         right: 90px;
     }
 }
-
 /* Normal Devices */
 @media screen and (min-width: 601px) and (max-width: 768px){
+    .receipt-container{
+        background-color: #fff;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .receipt-detail-column-right{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 90px;
+    }
+}
+/* Tablets Devices */
+@media screen and (min-width: 769px) and (max-width: 992px){
     .receipt-container{
         background-color: #fff;
         width: 90%;
